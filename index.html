@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Chicken Run 🐔</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>🐔 Chicken Run</h1>
+        <div id="score">Puntos: 0 | Mejor: 0</div>
+        <canvas id="gameCanvas" width="800" height="300"></canvas>
+        <p id="instrucciones">Presiona ESPACIO o toca la pantalla para saltar</p>
+        <div id="gameOverScreen" class="hidden">
+            <h2>💀 Game Over</h2>
+            <button onclick="reiniciarJuego()">🔄 Jugar de nuevo</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
